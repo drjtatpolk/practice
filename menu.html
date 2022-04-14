@@ -1,0 +1,175 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>The Coffee Shop</title>
+<style>
+
+/*colors
+ cream #FFF8e9 (255, 248, 233)
+ blue #394F5E  (57, 79, 94)
+ dark orange #B94531 (185, 69, 49)
+*/
+    header {
+        margin-top: 1em;
+        text-align: center;
+        background-color: rgba(57, 79, 94,.8);
+    }
+    header li {
+        list-style: none;
+        display: inline-block;
+        padding: .5em;
+    }
+    a {
+        text-decoration: none;
+        }
+    /*unvisited link - tip - might need to clear your history*/
+    a:link {
+        color: #FFF8e9;
+    }
+    /*visited link*/
+    a:visited { 
+        color: #B5D2F2;
+    }
+        /*hover over link with mouse*/
+    a:hover {
+        background-color: rgba(57, 79, 94,.8);
+    }
+    a:active {
+        color: #B94531;
+        background-color: rgba(255, 248, 233, .3);
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        text-align: center;
+        color: #394F5E;
+        background-color: #FFF8e9;
+    }
+    
+
+    h1 {
+        font: bold 2.2em Times, serif;
+        color: #394F5E;
+        text-shadow: .05em .05em .1em gray
+    }
+    h2 {
+        font: bold 1.2em Times, serif;
+        text-transform: uppercase;
+        color: #B94531;
+        letter-spacing: .4em;
+    }
+    dt {
+        font-weight: bold;
+        color: #394F5E;
+    }
+
+    strong {
+        font-style: italic;
+    }
+
+    .price {
+        font-weight: bold;
+        font-style: italic;
+    }
+    #drinks, #healthy {
+        border: 2px solid;
+        background-color: rgba(57, 79, 94, .25);
+        padding: 5px 20px;
+        margin: 10px 20px;
+    }
+    #treats {
+        border: 2px solid;
+        background-color: rgba(185, 69, 49, .25);
+        padding: 5px 20px;
+        margin: 10px 20px;
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+<div id="intro">
+<h1>
+    The Coffee Shop Menu</h1>
+
+<p>Do you <em>love</em> coffee? Whether you are on the go or want a few moments to sit and relax, visit The Coffee Shop. 
+    We have drinks, treats, sandwiches, and daily specials.</p>
+</div>
+
+<div id="drinks">
+<h2>Caffeinated Beverages</h2>
+<p>Need caffeine to start your day? Or to keep you going in the afternoon? We got you covered!</p>
+
+<dl>
+<dt class="favorite">Iced Coffee &mdash; <strong>staff favorite!</strong> </dt>
+<dd>Insert <em>description</em> here <span class="price">$4.99</span></dd>
+
+<dt>Hot Coffee</dt>
+<dd>Insert description here <span class="price">$2.99</span></dd>
+
+<dt>Tea</dt>
+<dd>Insert description here <span class="price">$2.99</span></dd>
+
+<dt class>Hot Chocolate</dt>
+<dd>Insert description here <span class="price">$3.99</span></dd>
+
+</dl>
+</div>
+
+<div id="treats">
+
+<h2> Treats</h2>
+<p></p>
+<p>Need something fun to go with your <em>favorite</em> caffinated beverage, 
+    look no further! We have a variety of treats for you to enjoy.</p>
+
+<dl>
+    
+<dt>Poppy Seed Almond Cake</dt>
+<dd>Insert description here <span class="price">$3.99</span></dd>
+    
+<dt class="favorite">Mocha Coffee Coffee Cake &mdash; 
+    <strong>staff favorite!</strong> </dt>
+<dd>Insert description here <span class="price">$3.99</span></dd>
+   
+<dt>Chocolate chocolate chip cookies</dt>
+<dd>Insert description here <span class="price">$1.99</span></dd>
+     
+</dl>    
+</div>
+
+<div id="healthy">
+
+<h2>Healthy Treats</h2>
+<p>Need a break from our Mocha Coffee Coffee Cake, try a healthy treat.</p>
+    
+<dl>
+        
+<dt>Fruit Cup</dt>
+<dd>Insert description here <span class="price">$2.99</span></dd>
+        
+<dt class="favorite">Fruit Smoothie &mdash; <strong>staff favorite!</strong> </dt>
+<dd>Insert description here <span class="price">$3.99</span></dd>
+           
+</dl>      
+</div>
+
+<p class="warning"><sup>*</sup> We are required to warn you that undercooked food is a health risk.</p>
+</main>
+</body>
+</html>
+
+
+
